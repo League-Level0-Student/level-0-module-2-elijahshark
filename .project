@@ -14,4 +14,11 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>src/methods/376694__daleonfire__lazer.wav</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Music/iTunes/iTunes%20Media/Music/Unknown%20Artist/SM%20CAT%20LAZER/376694__daleonfire__lazer.wav</locationURI>
+		</link>
+	</linkedResources>
 </projectDescription>

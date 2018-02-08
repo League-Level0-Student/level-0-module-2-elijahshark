@@ -15,11 +15,25 @@ public class AnimalFarm {
 
 AnimalFarm() {
 	//
-	 // 1. Ask the user which animal they want, then play the sound of that
-	 JOptionPane.showInputDialog(null, "What animal do you want to hear "
-	 		+ "their's a llama, cow, cat, duck, dog, me-gusta");
+	
+	// 1. Ask the user which animal they want, then play the sound of that
+	for (int i = 0; i < 999999999; i++) {
+		
+	 
+	String word = JOptionPane.showInputDialog(null, "What animal do you want to hear their's a cow, duck, dog,");
 
 	//2. Make it so that the user can keep entering new animals. */
+	if (word == "dog") {
+	playNoise(woofFile);
+	}
+	if (word == "duck") {
+		playNoise(quackFile);
+	}
+		if (word == "cow") {
+		playNoise(mooFile);
+		}
+	
+	}
 }
 
 void playMoo() {
@@ -56,6 +70,7 @@ public void playNoise(String soundFile) {
 
 public static void main(String[] args) {
 	new AnimalFarm();
+
 }
 
 }
