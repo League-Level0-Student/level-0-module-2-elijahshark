@@ -39,7 +39,7 @@ tryCode(i);
 	private static void playTheSoundOfSuccess() {
 		try {
 			Clip clip = AudioSystem.getClip();
-			clip.open(AudioSystem.getAudioInputStream(SafeCracker.class.getResource("376694__daleonfire__lazer.wav")));
+			//clip.open(AudioSystem.getAudioInputStream(SafeCracker.class.getResource("lazer.wav")));
 			clip.start();
 			Thread.sleep(3400);
 		} catch (Exception e) {
